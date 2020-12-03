@@ -362,7 +362,9 @@ from the berries results to the DOM?
 
 ### API Keys
 
-[Read More](https://git.generalassemb.ly/sei-921/APIs-Ajax/blob/master/apiKeysExercise.md)
+
+
+[Read More](../../../apiKeysExercise.md)
 
 ### Fetch & XMLHttpRequest
 
