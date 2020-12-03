@@ -364,8 +364,8 @@ from the berries results to the DOM?
 
 
 
-[Read More](../../../apiKeysExercise.md)
+[Read More](./apiKeysExercise.md)
 
 ### Fetch & XMLHttpRequest
 
-[Read More](https://git.generalassemb.ly/sei-921/APIs-Ajax/blob/master/fetch-xml.md)
+[Read More](./fetch-xml.md)
