@@ -341,7 +341,7 @@ Here is the basic HTML code for a search bar and button
     <input type="button" name = "submitButton" value="Click here" id="seachButton">
 </form>
 
-<h1 class 
+<h1 class="returnSection"></h1> 
 ```
 
 And here is some of the JS we will need to make it all run
@@ -395,7 +395,7 @@ try {
 
     const resultList = document.querySelector('.returnSection')
 
-    jokeList.innerHTML = apiData.value
+    resultList.innerHTML = apiData.value
     
 } catch (error) {
     console.log(error);
