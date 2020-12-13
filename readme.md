@@ -1,5 +1,7 @@
 [![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
 
+## SEIR1130:  December 14, 2020
+
 # AJAX and APIs
 
 ## Learning Objectives
@@ -30,7 +32,7 @@ describing software design. At the highest level, an API is any application with
 a set of instructions for how programmers can interact with it (e.g., getting data). The DOM is
 actually an example of an API.
 
-Many web sites have their own data, but they can pull in other data. For example, many news sites have a weather widget. This widget gets its data from a weather resource. There are many APIs that can be used by individuals and companies. Some are totally free, some are available for a small fee, and some are really expensive.
+Many web sites have their own data, but they can pull in other data. For example, many news sites have a weather widget. This widget gets its data from a weather resource. There are many APIs that can be used by individuals and companies. Some are totally free (Pokemon, Harry Potter, Weather), some are available for a small fee (Spotify, the Joke DB), and some are really expensive (super super ultra fast Stock Market + Currency Exchange DB's).
 
 There are APIs for
 - Weather
