@@ -349,7 +349,7 @@ And here is some of the JS we will need to make it all run
 let searchInput = document.querySelector('#inputBar');
 let submitButton = document.querySelector('#searchButton')
 
-const url = `https://APIURL=${searchInput.value}`;
+const url = `https://pokeapi.co/api/v2/pokemon/${searchInput.value}`;
 console.log (`Part 1 + ${url} `);
 
 ```
