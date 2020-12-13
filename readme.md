@@ -349,12 +349,17 @@ And here is some of the JS we will need to make it all run
 let searchInput = document.querySelector('#inputBar');
 let submitButton = document.querySelector('#searchButton')
 
-const url = `https://pokeapi.co/api/v2/pokemon/${searchInput.value}`;
-console.log (`Part 1 + ${url} `);
 
+async function getData (event) {
+    
+event.preventDefault()
+//Fetch Code//
+
+
+}
 ```
 
-
+Before we begin, how are we going to get that Button to run the getData function when it is clicked??
 1. Add a form and a `<h1>` to your HTML. Your form should include a single text
    input and a submit button.
 1. Add an event listener to your form so that when submitted, you trigger an
