@@ -193,6 +193,11 @@ Add the following code to your script! Then open your index.html file in the
 browser **using Live Server**. Don't open it using the `open` command or the
 requests will be blocked.
 
+"Then" is a pre-defined method used with Async functions, what they basically mean is "If (something happens correctly), Then (it will do something). Remember, this is Asyncronous, so things are happening at different times behind the scenes!
+
+"Catch" is used to "Catch" any errors that the API call may throw at you. It is used to give a message if (and inevitably when) any errors occur.
+
+
 ```js
 // const url = "http://pokeapi.salestock.net/api/v2/pokemon/7"
 const url = "https://pokeapi.co/api/v2/pokemon/7";
