@@ -341,7 +341,7 @@ Here is the basic HTML code for a search bar and button
     <input type="button" name = "submitButton" value="Click here" id="seachButton">
 </form>
 
-<h1 class="returnSection"></h1> 
+ 
 ```
 
 And here is some of the JS we will need to make it all run
@@ -368,41 +368,7 @@ console.log (`Part 1 + ${url} `);
 > html and have a picture of the pokemon you search for appear on your page!
 
 
-Here is a bit more of what your JS code will need to include
 
-```
-
-
-
-try {
-    const searchTerm = document.querySelector('#inputBar').value
-    console.log(searchTerm)
-
-    const URL = `https://URL${searchTerm}`
-    const options = {
-
-        method: 'GET',
-        headers: {
-            'Accept': 'application/json',
-            'Content-Type': 'application/json'
-        }
-    }
-
-    let result = await axios.get(URL, options)
-    const resultData = result.data.results
-    console.log("Part 2 + ", resultData)
-
-
-    const resultList = document.querySelector('.returnSection')
-
-    resultList.innerHTML = apiData.value
-    
-} catch (error) {
-    console.log(error);
- }  
-}
-
-```
 
 ## Break (10 minutes, 1:30)
 
