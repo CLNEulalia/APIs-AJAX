@@ -8,6 +8,7 @@
 - Describe AJAX and how it lets us build rich client-side applications
 - Render new HTML content using data loaded from an AJAX request.
 - Perform GET requests to an API to retrieve data.
+- Installing and setting up Postman App to aid in API functinons
 
 ## Framing (5 minutes, 0:05)
 
@@ -19,6 +20,8 @@ is)
 Today, we're going to learn how to request information from third-party
 databases, and how to make our applications more dynamic by making it so our
 application doesn't need to refresh the page to make a request to an API server!
+
+With these functions we will be able to access information from all over the web and display it within our apps, sites, and projects!
 
 ## What is an API (15 minutes, 0:30)
 
