@@ -342,11 +342,13 @@ Here is the basic HTML code for a search bar and button
 </form>
 ```
 
-And here is the JS we will need to make it all run
+And here is some of the JS we will need to make it all run
 ```
-
 let searchInput = document.querySelector('#inputBar');
 let submitButton = document.querySelector('#searchButton')
+
+const url = `https://APIURL=${searchInput.value}`;
+console.log (`Part 1 + ${url} `);
 
 ```
 
@@ -362,6 +364,42 @@ let submitButton = document.querySelector('#searchButton')
 
 > Hint: What does `.preventDefault()` do? Bonus: include an `img` tag to your
 > html and have a picture of the pokemon you search for appear on your page!
+
+
+Here is a bit more of what your JS code will need to include
+
+```
+
+
+
+try {
+    const searchTerm = document.querySelector('#inputBar').value
+    console.log(searchTerm)
+
+    const URL = `https://URL${searchTerm}`
+    const options = {
+
+        method: 'GET',
+        headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+        }
+    }
+
+    let result = await axios.get(URL, options)
+    const resultData = result.data.results
+    console.log("Part 2 + ", resultData)
+
+
+    const resultList = document.querySelector('.returnSection')
+
+
+} catch (error) {
+    console.log(error);
+ }  
+}
+
+
 
 ## Break (10 minutes, 1:30)
 
