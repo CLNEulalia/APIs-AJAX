@@ -199,9 +199,7 @@ requests will be blocked.
 
 
 ```js
-// const url = "http://pokeapi.salestock.net/api/v2/pokemon/7"
-const url = "https://pokeapi.co/api/v2/pokemon/7";
-// use first url as a backup only
+const url = "https://pokeapi.co/api/v2/pokemon-form/"
 
 fetch(url)
   .then(res => {
@@ -338,7 +336,7 @@ Here is the basic HTML code for a search bar and button
 ```
 <form id = "searchBar">
     <input type="text" name="inputBar" value="" placeholder="Enter text here"  id="inputBar">
-    <input type="button" name = "submitButton" value="Click here" id="seachButton">
+    <input type="button" name = "submitButton" value="Click here" id="searchButton">
 </form>
 
  
@@ -346,15 +344,14 @@ Here is the basic HTML code for a search bar and button
 
 And here is some of the JS we will need to make it all run
 ```
-let searchInput = document.querySelector('#inputBar');
-let submitButton = document.querySelector('#searchButton')
+let button = document.querySelector('#searchButton');
+let textInput = document.querySelector('#inputBar').value;
 
 
-async function getData (event) {
-    
-event.preventDefault()
-//Fetch Code//
+async function getData (event) {    
+     event.preventDefault()
 
+ ///FETCH code
 
 }
 ```
