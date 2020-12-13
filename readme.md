@@ -329,12 +329,22 @@ the information we want.
 
 ### But first, let's learn how build up a working searchbar!
 
+Here is the basic HTML code for a search bar and button
 ```
 <form id = "searchBar">
     <input type="text" name="inputBar" value="" placeholder="Enter text here"  id="inputBar">
     <input type="button" name = "submitButton" value="Click here" id="seachButton">
 </form>
 ```
+
+And here is the JS we will need to make it all run
+```
+
+let searchInput = document.querySelector('#inputBar');
+let submitButton = document.querySelector('#searchButton')
+
+```
+
 
 1. Add a form and a `<h1>` to your HTML. Your form should include a single text
    input and a submit button.
