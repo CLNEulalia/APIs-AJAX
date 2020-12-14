@@ -370,6 +370,19 @@ Before we begin, how are we going to get that Button to run the getData function
 > html and have a picture of the pokemon you search for appear on your page!
 
 
+There are A Lot of different key parts to this, from pulling the information, to logging it on to the screen.
+At the end, your code should look something like this:
+
+```
+
+const pokemonHeading = document.querySelector('#my-pokemon-heading');
+			pokemonHeading.innerText = `Pokemon: ${res.name.toUpperCase()}`;
+			console.log(res);
+      
+```      
+      
+
+
 
 
 ## Break (10 minutes, 1:30)
